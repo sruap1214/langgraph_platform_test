@@ -6,11 +6,13 @@
       "langchain_openai",
       "wikipedia",
       "scikit-learn",
+      "chromadb",
       "."
     ],
     "graphs": {
       "agent": "./agent.py:graph",
-      "storm": "./storm.py:graph"
+      "storm": "./storm.py:graph",
+      "question_solver": "./agentic_rag.py:graph"
     },
-    "env": "../.env"
+    "env": "./.env"
   }
